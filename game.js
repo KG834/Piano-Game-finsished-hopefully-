@@ -272,10 +272,12 @@ var r12 = Math.round(random(100, 130))
        // console.log("its the end of the game")
         if(player.score >= 40 ){
             text("you won", 900, height/2,)
+            alert("You Won");
             //console.log("you won")
            // setTimeout(window.location.reload, 5000)
         } else {
             text("you lost", 900, height/2)
+            alert("You Lost")
           //  console.log("you lost")
           //  setTimeout(window.location.reload, 5000)
         }
